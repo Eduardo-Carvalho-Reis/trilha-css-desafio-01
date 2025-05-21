@@ -5,6 +5,142 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Trilha de CSS - DIO</title>
+  <style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+
+  .banner {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .banner .logo img {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+
+  .banner h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+
+  .banner p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto 20px;
+  }
+
+  .banner button {
+    padding: 10px 20px;
+    background-color: #00c8ff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  .banner button:hover {
+    background-color: #009ccf;
+  }
+
+  main {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+
+  #course-content h2,
+  #professional-challenges h2 {
+    color: #203a43;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  #course-content p,
+  #professional-challenges p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+
+  .modules-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .module {
+    background-color: #e0f7fa;
+    padding: 15px;
+    border-left: 5px solid #00acc1;
+    font-weight: bold;
+  }
+
+  #transform-world {
+    background: url('assets/images/banner.png') no-repeat center center/cover;
+    text-align: center;
+    padding: 80px 20px;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    margin: 40px 0;
+  }
+
+  #professional-challenges img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+  }
+
+  footer {
+    background-color: #203a43;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  footer .dio-logo {
+    width: 100px;
+    margin-bottom: 15px;
+  }
+
+  footer a {
+    color: #00c8ff;
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 768px) {
+    .banner h1 {
+      font-size: 2rem;
+    }
+
+    #transform-world {
+      font-size: 1.5rem;
+    }
+  }
+</style>
+
+
 </head>
 <body>
   <header class="banner">
